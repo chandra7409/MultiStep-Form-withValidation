@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiStep-Form</title>
+    <link rel="stylesheet" href="multiform.css">
+</head>
+
+<body>
+
+    <div id="former">
+        <form name="form1" action="#">
+            <div class="container">
+                <h1 style="text-align: center;">-------Register----------</h1>
+
+                <h2><b>Please fill the Third step  Address Information</b></h2>
+                <hr>
+
+                <label for="psw"><b>City</b></label>
+                <input type="text" placeholder="Enter City name" name="cityname" id="city" autocomplete="off" required/><br>
+
+                <label for="psw"><b>Pin Code</b></label>
+                <input type="number" placeholder="Enter PinCode" name="PinCode" autocomplete="off" id="pincode" required/><br>
+                <label for="psw"><b>State</b></label>
+                <input type="text" placeholder="Enter State name" name="Statename" autocomplete="off" id="statename" required/><br>
+                <label for="psw"><b>Country</b></label>
+                <input type="text" placeholder="Enter Country name" name="countryname" autocomplete="off" id="countryname" required/>
+
+                <div class="field">
+                    <button id="btn" type="submit">Next</a></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="multiform.js"></script>
+</body>
+
+</html>

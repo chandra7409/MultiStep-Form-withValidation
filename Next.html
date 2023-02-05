@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiStep-Form</title>
+    <link rel="stylesheet" href="multiform.css">
+</head>
+
+<body>
+
+    <div id="former">
+        <form name="form1" action="#">
+            <div class="container">
+                <h1 style="text-align: center;">-------Register----------</h1>
+
+                <h2><b>Please fill the Second step Contact Information</b></h2>
+                <hr>
+                <label for="psw"><b>Phone Number</b></label>
+                <input type="number" placeholder="Enter the Number" name="psw" id="PhoneNumber" autocomplete="off" required/>
+                <br><br>
+                <label for="psw"><b>Brith date</b></label>
+                <input type="date" placeholder="Enter the DOB" name="DOB" id="DOB" autocomplete="off" required/>
+
+                <div class="field">
+                    <button id="btn" type="submit" > next </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="multiform.js"></script>
+</body>
+
+</html>

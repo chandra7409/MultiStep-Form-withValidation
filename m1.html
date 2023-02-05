@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiStep-Form</title>
+    <link rel="stylesheet" href="multiform.css">
+</head>
+<body>
+    <div id="former">
+        <!-- <form name="form1" action="#" onsubmit=" return validate()"> -->
+            <form action="#" name="form1" >
+            <div class="container">
+                <h1 style="text-align: center;">-------Register----------</h1>
+                <p style="text-align: center;">Please fill the form Step by Step and complete.</p>
+                <h2><b>Please fill the first step</b></h2>
+                <hr>
+                <label for="psw"><b>first name</b></label>
+                <input type="text" placeholder="Enter First name" name="fname" id="fname" autocomplete="off" required>
+
+                <label for="psw"><b>Last name</b></label>
+                <input type="text" placeholder="Enter Last name" name="lname" id="lname" autocomplete="off" required>
+
+                <div class="field">
+                    <button id="btn" type="submit" > next </button>
+                </div>
+            </div>
+        </form>
+       
+    </div>
+    <script src="m1.js"></script>
+</body>
+
+</html>
